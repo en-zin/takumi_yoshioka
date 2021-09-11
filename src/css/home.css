@@ -1,0 +1,186 @@
+main {
+    margin: 0 auto;
+    padding-top: 48px;
+}
+
+
+/* 全体のcss 背景画像もここで処理 */
+.bg_home_img{
+    height: 100vh;
+    background-color:#707070;
+    background-image: url('../img/fox.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.bg_profile_img{
+    background-image: url('../img/bg.jpeg');
+    background-size:cover;
+}
+
+.bg_about_img {
+    background-image: url('../img/bg2.jpeg');
+    background-size:cover;
+}
+
+.bg_skill_img{
+    background-image: url('../img/bg3.jpeg');
+    background-size:cover;
+}
+
+
+.content{
+    width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_title_container {
+    margin: 32px auto 0 0;
+}
+
+
+.overview {
+    width: 168px;
+    margin-left: auto;
+}
+
+.overview_text {
+    margin: 160px 0 40px 0;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+}
+
+.overview_more {
+    width: 128px;
+    margin-bottom: 32px;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 1.7;
+}
+
+/* sloganのcss */
+
+.slogan_container {
+    width: 100%;
+    position: absolute;
+    bottom: 25%;
+    font-size: 32px;
+}
+
+.slogan_container_top {
+    margin-left: 8%;
+}
+
+.slogan_container_bottom {
+    margin-left: 32%;
+}
+
+
+/* Who are youに関わるcss */
+.top_border {
+    border-top: 1px solid #EFEFEF;
+    padding-top: 8px;
+}
+
+/* Aboutに関わるcss */
+
+.said_border {
+    display: flex;
+    align-items: center; /* 垂直中心 */
+    justify-content: center; /* 水平中心 */
+  }
+
+.said_border:before {
+    margin-right: 8px; /* 文字の右隣 */
+    border-top: 1px solid;
+    content: "";
+    width: 1em; /* 線の長さ */
+}
+
+.said_border:after {
+    margin-left: 8px; /* 文字の左隣 */
+    border-top: 1px solid;
+    content: "";
+    width: 48px; /* 線の長さ */
+}
+  
+
+
+/* skill に関わる css */
+
+.skill_icon_container {
+    margin-top: 48px;
+}
+
+.skill_container {
+    margin: 32px 0 0 0;
+}
+
+.under_border {
+    border-bottom: 1px solid #EFEFEF;
+    padding: 0px 32px 0 32px;
+}
+
+
+.skill_icons {
+    width: 300px;
+    margin-bottom: 32px;
+}
+
+
+@media screen and (min-width: 481px) {
+
+    main {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 48px;
+    }
+    
+    .content{
+        width: 420px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .slogan_container {
+        position: absolute;
+        bottom: 16%;
+        left: 10%;
+        font-size: 64px;
+        width: 83%;
+    }
+
+}
+
+@media screen and (min-width: 960px) {
+	/* 960px以上に適用されるCSS（PC用） */
+    .bg_home_img{
+        height: 100vh;
+        background-color:#707070;
+        background-image: url('../img/fox.png');
+        background-size: cover;
+    }
+
+    .slogan_container {        
+        position: absolute;
+        top: 8%;
+        left: 50%;
+        font-size: 64px;
+        width: 50%;
+    }
+
+    .skill_content_pc {
+        width: 100%;
+    }
+
+    .skill_icon_container_pc {
+        display: flex;
+    }
+}

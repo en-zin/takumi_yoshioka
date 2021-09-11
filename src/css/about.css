@@ -1,0 +1,16 @@
+.about_txt_container {
+    margin-top: 48px;
+}
+
+.about_title {
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 481px) {
+
+    .bg_about_img_tab {
+        height: 100%;
+    }
+
+}
+

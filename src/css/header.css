@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 48px;
+    justify-content: space-between;
+    background-color: #707070;
+}
+
+.header_logo {
+    width: 124px;
+    vertical-align:top;
+}
+
