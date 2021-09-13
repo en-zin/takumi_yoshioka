@@ -1,5 +1,10 @@
 import React from 'react';
 import '../css/home.css';
+import '../css/skill.css';
+import AWS from '../img/aws.svg';
+import EC2 from '../img/aws-ec2.svg';
+import RDS from '../img/aws-rds.svg';
+import S3 from '../img/aws-s3.svg';
 
 const Skill = () => { 
     
@@ -47,6 +52,18 @@ const Skill = () => {
                             </div>
                             <div className="skill_icons">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+                            </div>
+                            <div className="skill_icons">
+                                <img src={AWS}></img>
+                            </div>
+                            <div className="skill_icons">
+                                <img src={EC2}></img>
+                            </div>
+                            <div className="skill_icons">
+                                <img src={RDS}></img>
+                            </div>
+                            <div className="skill_icons">
+                                <img src={S3}></img>
                             </div>
                         </div>
                     </section>

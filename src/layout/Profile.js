@@ -6,6 +6,7 @@ const Profile = () => {
         <main>
             <div className="bg_profile_img bg_profile_img_tab bg_profile_img_pc">
                 <div className="bg_color">
+                </div>
                     <section className="content">
                         <div className="content_title_container">
                             <h2 className="content_title top_border">Who are you</h2>
@@ -34,7 +35,6 @@ const Profile = () => {
                             </div>
                         </div>
                     </section>
-                </div>
             </div>
         </main>
     )
