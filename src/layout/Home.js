@@ -36,7 +36,8 @@ const Home = () => {
 
             {/* who are you */}
             <div className="bg_profile_img">
-                <div className="bg_color">
+                <div className="bg_color_blue">
+                </div>
                     <section className="content">
                         <div className="content_title_container">
                             <h2 className="content_title top_border">Who are you</h2>
@@ -51,7 +52,6 @@ const Home = () => {
                             </div>
                         </div>
                     </section>
-                </div>
             </div>
 
             {/* about */}
@@ -81,13 +81,13 @@ const Home = () => {
                             <h2 className="content_title under_border">Skill</h2>
                         </div>
                         <div className="content_overview skill_icon_container skill_icon_container_pc">
-                            <div className="skill_icons">
+                            <div className="skill_icons_home">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
                             </div> 
-                            <div className="skill_icons">
+                            <div className="skill_icons_home">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
                             </div> 
-                            <div className="skill_icons">
+                            <div className="skill_icons_home">
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
                             </div> 
                         </div>

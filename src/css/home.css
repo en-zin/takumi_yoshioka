@@ -87,6 +87,12 @@ main {
     padding-top: 8px;
 }
 
+.bg_color_blue {
+    position: absolute;
+    background-color: #4F4FDD;
+    opacity: 0.2;
+}
+
 /* Aboutに関わるcss */
 
 .said_border {
@@ -118,7 +124,7 @@ main {
 }
 
 .skill_container {
-    margin: 32px 0 0 0;
+    margin: 32px 0 32px 0;
 }
 
 .under_border {
@@ -127,7 +133,7 @@ main {
 }
 
 
-.skill_icons {
+.skill_icons_home {
     width: 300px;
     margin-bottom: 32px;
 }
